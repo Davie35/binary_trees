@@ -14,5 +14,4 @@ void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
 	binary_tre_postorder(tree->right, func);
 	func(tree->n);
 }
-Footer
-© 2022 GitHub, Inc.
+
